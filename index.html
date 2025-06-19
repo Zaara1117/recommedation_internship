@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Zaara's Internship Assistant</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', sans-serif;
+        }
+        
+        body {
+            background: linear-gradient(to bottom right, #ffe6f0, #ffccda);
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .chat-container {
+            background: #fff;
+            width: 90%;
+            max-width: 600px;
+            height: 700px;
+            padding: 20px;
+            border-radius: 20px;
+            box-shadow: 0 0 20px rgba(255, 105, 180, 0.3);
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+        }
+        
+        h1 {
+            text-align: center;
+            color: #ff4d94;
+            margin-bottom: 15px;
+            font-size: 1.4rem;
+        }
+        
+        iframe {
+            flex: 1;
+            border: none;
+            border-radius: 12px;
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="chat-container">
+        <h1>💬 Ask Me Anything - Internship Assistant</h1>
+
+        <!-- Embed Chatbase as iframe instead of floating widget -->
+        <iframe src="https://www.chatbase.co/chatbot-iframe/-_nbWqCOLpyXwL5CWUgUD" title="Zaara Chatbot"></iframe>
+    </div>
+</body>
+
+</html>
