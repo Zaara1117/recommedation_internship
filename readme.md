@@ -16,7 +16,7 @@ Welcome to **Zaara's Internship Assistant** – an elegant, AI-powered chatbot t
 
 ## 🚀 Live Preview
 
-[🔗 View Live Chatbot](https://zaara1117.github.io/YourProjectPathHere)  
+[🔗 View Live Chatbot]( https://zaara1117.github.io/recommedation_internship/)  
 > *(Replace with your actual GitHub Pages link if deployed)*
 
 ---
